@@ -36,6 +36,10 @@ module:
       target:           layouts
     - source:           site/static
       target:           static
+    - source:           site/assets/brand/
+      target:           static/docs/5.0/assets/brand/
+    - source:           site/assets/img/
+      target:           static/docs/5.0/assets/img/
     - source:           site/static/docs/5.0/assets/img/favicons/apple-touch-icon.png
       target:           static/apple-touch-icon.png
     - source:           site/static/docs/5.0/assets/img/favicons/favicon.ico
